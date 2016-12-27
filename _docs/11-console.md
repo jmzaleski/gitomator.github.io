@@ -1,7 +1,7 @@
 ---
 layout: doc-page
 doc_source: 11-console
-permalink: /docs/console
+permalink: /docs/console/
 
 title: "`gitomator-console`"
 ---
