@@ -15,17 +15,9 @@ docs:
         url: /docs/welcome/
       - title: "Quick-Start"
         url: /docs/quick-start/
-      - title: "Architecture"
-        url: /docs/architecture/
       - title: "Contributing"
         url: /docs/contributing/
-  - title: Classroom
-    children:
-      - title: "The basics"
-        url: /docs/classroom/basics
-      - title: "Configuration Files"
-        url: /docs/classroom/config-files
-  - title: Tasks
+  - title: "Command-line Tools"
     children:
       - title: "make-repos"
         url: /docs/classroom/make-repos
@@ -37,5 +29,5 @@ docs:
         url: /docs/classroom/ci
       - title: "clone-repos"
         url: /docs/classroom/clone-repos
-      - title: "auto-mark"
-        url: /docs/classroom/auto-mark
+      - title: "console"
+        url: /docs/console
