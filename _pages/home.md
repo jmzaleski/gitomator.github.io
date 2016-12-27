@@ -15,10 +15,10 @@ feature_row:
     url: "/docs/welcome/"
     btn_label: "Learn More"
   - image_path: splash-icon-pluggable.svg
-    alt: "Pluggable & Extensible"
-    title: "Pluggable & Extensible"
-    excerpt: "Mix & match different service providers in your automated workflow. Extend Gitomator with your automation tasks."
-    url: "/docs/architecture/"
+    alt: "Extensible"
+    title: "Extensible"
+    excerpt: "Use the interactive console to perform custom tasks that aren't available as command-line tools."
+    url: "/docs/console/"
     btn_label: "Learn More"
   - image_path: splash-icon-free.svg
     alt: "100% free"

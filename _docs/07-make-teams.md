@@ -3,13 +3,13 @@ layout: doc-page
 doc_source: 07-make-teams
 permalink: /docs/classroom/teams
 
-title: "`make-teams`"
+title: "`gitomator-make-teams`"
 ---
 
 Usage:
 
 ```sh
- $ bin/task/make-teams TEAMS-CONFIG
+ $ gitomator-make-teams TEAMS-CONFIG
 ```
 
 ### Minimal configuration
@@ -28,6 +28,15 @@ Teaching-Assistants:
   - Ron
 ```
 
+When you run `gitomator-make-teams`, Gitomator will:
+ * Create all missing teams (in your GitHub organization)
+ * Add all missing team memberships
+
+ > Users who are not yet members of your GitHub organization, will automatically
+   get an email invite to join.
+
+
+
 ### Specify Role
 
 By default, team members have the `member` role, but you can specify a different
@@ -37,10 +46,10 @@ role. For example:
 Team1:
   - Alice
   - Bob
-  - {Zoe: admin}
+  - {Zoe: maintainer}
 
 Team2:
   - Charlie
   - Dave
-  - {Ron: admin}
+  - {Ron: maintainer}
 ```

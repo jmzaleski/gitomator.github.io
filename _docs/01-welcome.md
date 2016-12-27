@@ -8,30 +8,30 @@ excerpt: "Welcome"
 ---
 
 
-Gitomator is a set of libraries and command-line tools, built to help software educators.
+_Gitomator_ is a set of command-line tools for batch operations on hosted Git repositories.      
 
- * Automate your workflow around services like GitHub & Travis CI.
- * Use the existing automation tasks, or create your own.
- * Plug-in architecture allows you to use the same API to access different service providers.
- * Easy to extend with new services, providers and tasks.
- * Free, Open-Source (MIT license), contributor-friendly project.
+It was built to help software educators use tools like [GitHub](https://github.com) or [Travis CI](http://travis-ci.com) in their classroom, and here are some of the tasks it can help you with:
 
-
-# What can I do with it?
-
-Automate your workflow.
-
- * Create teams in your GitHub organization
- * Manage team memberships
- * Create repositories and manage access permissions (who has what access to which repo)
- * Push updates between repositories
+ * Create, clone and update repos
+ * Create teams and update team memberships
+ * Set access permissions
  * Enable/disable CI
- * Clone repositories from your GitHub organization to your local machine.
- * And much more
 
-# What is it good for?
 
-Running software engineering courses at a University, for example.          
+Think of Gitomator as a _Swiss army knife for your GitHub organization_.
 
-In fact, the prototype of Gitomator was used to automate the workflow of coding
-assignments in an advanced software engineering course at the University of Toronto.
+
+If you are using GitHub in academia (e.g. running a software engineering course), you might want to start by preparing your organization.
+
+
+### Prepare Your GitHub Organization
+
+ 1. Create a [GitHub organization](https://help.github.com/articles/creating-a-new-organization-account/)
+ 2. [Request a discounted/free plan for educational use](https://education.github.com/discount_requests/new).       
+   _Note:_ You can start using Gitomator before getting your discount, you just won't be able to create private repos.
+ 3. **Important:** In your organization's settings page, go to the **member privileges**
+    section and set the **default repository permission** to None.     
+    (Otherwise, every students will be able to see every repo in the organization).
+ 4. _Suggestion:_ Make one of your colleagues an organization owner.         
+    (Extremely useful for cases where one of you cannot access their account or
+     accidentally loses their owner privileges)

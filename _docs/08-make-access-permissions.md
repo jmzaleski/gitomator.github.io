@@ -3,7 +3,7 @@ layout: doc-page
 doc_source: 08-make-access-permissions
 permalink: /docs/classroom/access-permissions
 
-title: "`make-access-permissions`"
+title: "`gitomator-make-access-permissions`"
 ---
 
 Set who (user or team) has what permissions (e.g. read or write) to which repo.
@@ -11,7 +11,7 @@ Set who (user or team) has what permissions (e.g. read or write) to which repo.
 Usage:
 
 ```sh
- $ bin/task/make-access-permissions CONFIG
+ $ gitomator-make-access-permissions REPOS-CONFIG
 ```
 
 ### Minimal configuration
