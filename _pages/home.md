@@ -5,7 +5,7 @@ author_profile: false
 header:
   overlay_image: splash.svg
 
-excerpt: 'Workflow automation for software educators.<br />Benefit from services like <i>GitHub</i> & <i>Travis CI</i> in your coding courses.<br /> <small>Currently in Pre-Alpha</small>'
+excerpt: 'Workflow automation for software educators.<br />Benefit from services like <i>GitHub</i> & <i>Travis CI</i> in your coding courses.'
 
 feature_row:
   - image_path: splash-icon-powerful.svg
