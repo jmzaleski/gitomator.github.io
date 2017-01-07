@@ -13,7 +13,7 @@ Make sure the dependencies are installed.
 
  * [Ruby](https://www.ruby-lang.org/en/downloads/) (Gitomator is developed and tested on version 2.2)
  * [Ruby Gems](https://rubygems.org/pages/download)
-
+ * [Bundler](http://bundler.io/)
 
 ## Installation
 
