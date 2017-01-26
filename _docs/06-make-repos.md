@@ -27,6 +27,7 @@ repos:
 ### Specify `source_repo`
 
 The `master` branch of the specified `source_repo` will be pushed to each repo that is created.
+yo another line for th newbies here yo. what is the token repo-with-starter-code? URL? name like jmzaleski/gecko-dev/master ?
 
 ```yaml
 source_repo: repo-with-starter-code
