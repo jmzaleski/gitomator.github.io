@@ -6,6 +6,8 @@ permalink: /docs/console/
 title: "`gitomator-console`"
 ---
 
+change above jekkly?? magic so no "next" link appears 
+
 Start an interactive Ruby shell, with pre-loaded convenience functions.
 
 Usage:
@@ -35,3 +37,4 @@ Search for teams whose name contains the given `text` (pass an empty string to l
 
 In addition to pre-loaded convenience functions, the `gitomator_context` function will return the Gitomator context object.
 This allows you to implement additional functionality using the underlying Gitomator library.
+
