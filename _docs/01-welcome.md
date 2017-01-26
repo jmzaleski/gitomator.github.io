@@ -35,3 +35,5 @@ If you are using GitHub in academia (e.g. running a software engineering course)
  4. _Suggestion:_ Make one of your colleagues an organization owner.         
     (Extremely useful for cases where one of you cannot access their account or
      accidentally loses their owner privileges)
+
+Note, you do not have to invite all your students to your new organization manually at this point. The gitomator tools will this to happen whenever it is necessary. (could even propose Student team trick here)
