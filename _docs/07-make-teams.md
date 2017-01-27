@@ -28,9 +28,7 @@ Teaching-Assistants:
   - Ron
 ```
 
-When you run `gitomator-make-teams`, Gitomator will:
- * Create all missing teams (in your GitHub organization)
- * Add all missing team memberships
+When you run `gitomator-make-teams`, Gitomator will create all missing teams and add all missing team memberships.
 
  > Users who are not yet members of your GitHub organization, will automatically
    get an email invite to join.
