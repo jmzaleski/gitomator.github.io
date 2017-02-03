@@ -56,7 +56,7 @@ Specify permissions other than default one (read-only):
 repos:
   - repo-001: Alice
   - repo-002: { Bob: write }
-  - repo-003: { Charlie: admin }
+  - repo-003: { Charlie: write }
   - repo-004: Dave
 ```
 
@@ -65,7 +65,7 @@ As you might expect, you can specify multiple users per repo:
 ```yaml
 repos:
   - repo-001: { Alice: read , Bob: write }
-  - repo-002: { Charlie: admin, Dave: write }
+  - repo-002: { Charlie: write, Dave: write }
 ```
 
 Which can also be specified as:
@@ -76,7 +76,7 @@ repos:
      - Alice: read
      - Bob: write
   - repo-002:
-     - Charlie: admin
+     - Charlie: write
      - Dave: write
 ```
 
