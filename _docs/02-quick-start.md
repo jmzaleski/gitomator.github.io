@@ -40,6 +40,6 @@ ci:
 
  >  * You can read more about how to [create an access token on GitHub](https://github.com/blog/1509-personal-api-tokens).
  >  * If you don't use Travis CI, feel free to omit the `ci` configuration
- >  * You can specify a different path (other than `~/.gitomator`) for you configuration file, by setting the `GITOMATOR_CONTEXT` environment variable.
+ >  * You can specify a different path (other than `~/.gitomator`) for your configuration file, by setting the `GITOMATOR_CONTEXT` environment variable.
  >  * **Important:** Keep your credentials safe!      
       The `.gitomator` file is local to your machine, and should *not* be committed to version control.
